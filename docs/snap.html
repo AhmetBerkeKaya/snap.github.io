@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap'ini Alabilir miyim? 😉</title>
+    <style>
+        body {
+            background-color: #0a1f0f;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        .container {
+            background: linear-gradient(135deg, #00b894, #55efc4);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 184, 148, 0.5);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            background: white;
+            color: #00b894;
+            border: none;
+            padding: 15px 25px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background: #00b894;
+            color: white;
+            box-shadow: 0 0 15px rgba(0, 184, 148, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>"Snap kullanıyorsan, paylaşır mısın? Orada ne yaptığın hakkında az buçuk fikrim olur (KRAL). 😉📸"</h1>
+        <button class="btn" onclick="sendSnapRequest()">Snap'ini Yazar mısın</button>
+    </div>
+
+    <script>
+        function sendSnapRequest() {
+            alert("Eğer Snap'in varsa, bekliyorum! 😉");
+        }
+    </script>
+</body>
+</html>
